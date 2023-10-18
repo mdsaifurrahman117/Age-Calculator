@@ -95,3 +95,37 @@ input {
 .attribution a {
      color: hsl(228, 45%, 44%);
 }
+
+
+@media (max-width: 425px) {
+     .container {
+          max-width: 300px;
+          padding: 20px;
+     }
+     .input-section {
+          max-width: 300px;
+     }
+     .inputs {
+          max-width: 91px;
+     }
+     form {
+          gap: 0px;
+     }
+     label {
+          font-size: 13px;
+     }
+     input {
+          font-size: 15px;
+          width: 80px;
+     }
+     .submit-btn {
+          margin-top: 80px;
+          position: relative;
+     }
+     .submit-btn button {
+          margin-left: -170px;
+     }
+     .submit-btn ::after {
+          display: none;
+     }
+}
