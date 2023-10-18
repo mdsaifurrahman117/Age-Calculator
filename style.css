@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+:root {
+     --Purple: hsl(259, 100%, 65%);
+     --Light-red: hsl(0, 100%, 67%);
+     --White: hsl(0, 0%, 100%);
+     --Off-white: hsl(0, 0%, 94%);
+     --Light-grey: hsl(0, 0%, 86%);
+     --Smokey-grey: hsl(0, 1%, 44%);
+     --Off-black: hsl(0, 0%, 8%);
+}
+body {
+     background: var(--Off-white);
+     padding: 15px;
+     font-family: poppins;
+}
+.container {
+     max-width: 548px;
+     padding: 40px;
+     margin: 75px auto;
+     background: var(--White);
+     border-radius: 10px 10px 80px 10px;
+}
+.input-section {
+     max-width: 400px;
+     margin-bottom: 30px;
+}
+form {
+     display: flex;
+     gap: 20px;
+}
+label {
+     text-transform: uppercase;
+     font-size: 13px;
+     letter-spacing: 2px;
+}
+input {
+     font-size: 20px;
+     font-weight: bold;
+     width: 114px;
+     padding: 10px;
+     margin-top: 5px;
+     border: 1px solid var(--Light-grey);
+     border-radius: 5px;
+}
+.inputs span {
+     font-size: 11px;
+     display: block;
+     margin-top: 5px;
+     width: 113px;
+}
+.submit-btn {
+     margin-top: 80px;
+     position: relative;
+}
+.submit-btn button {
+     border: none;
+     padding: 10px;
+     border-radius: 50%;
+     cursor: pointer;
+     background-color: var(--Purple);
+}
+.submit-btn ::after {
+     content: "";
+     position: absolute;
+     width: 397px;
+     left: -399px;
+     top: 32px;
+     right: -142px;
+     border: 1px solid var(--Light-grey);
+}
+.output-section h1 {
+     font-size: 45px;
+     font-style: italic;
+}
+.output-section h1 span {
+     font-size: 45px;
+     color: var(--Purple);
+     font-style: italic;
+}
+
+
+.attribution {
+     font-size: 14px;
+     margin: auto;
+     width: 223px;
+     line-height: 20px;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
